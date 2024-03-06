@@ -1,0 +1,90 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: rgb(255, 255, 255);
+  }
+
+  h1, h2 {
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+    color: #fff;
+    background-color: black;
+    border-bottom: 3px solid white;
+    font-size: 50px;
+  }
+
+  .input-section {
+
+    font-size: 30px;
+    color: #000000;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 20px;
+  }
+
+  .input-section label {
+    font-weight: bold;
+    margin-right: 10px;
+  }
+
+  .input-section input[type="number"], .input-section input[type="date"] {
+    padding: 5px;
+    border-radius: 7px;
+    margin-right: 10px;
+    font-size: 20px;
+  }
+
+  #category-select{
+    padding: 5px;
+    border:2px solid black ;
+    border-radius: 7px;
+    font-size: 20px;
+    font-weight: 600;
+    background-color: #000000;
+    color: #fff;
+  }
+  .input-section button {
+    border-radius: 7px;
+    font-size: 20px;
+    padding: 5px 10px;
+    background-color: #000000;
+    color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+  table {
+    margin-top: 10px;
+    width: 100%;
+    border-collapse: collapse;
+  }
+
+  th, td {
+    border: 2px solid #000000;
+    padding: 8px;
+    text-align: left;
+  }
+
+  th {
+    background-color: #000000;
+    color: white;
+  }
+
+  tfoot td {
+    font-weight: bold;
+  }
+
+  .delete-btn {
+    padding: 5px 10px;
+    background-color: #ff1100;
+    border: 2px solid black;
+    color: white;
+    
+    border-radius: 4px;
+    cursor: pointer;
+    margin-left: 30px;
+  }
